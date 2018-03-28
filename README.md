@@ -67,21 +67,21 @@ Let's add now other types of values to the JSON object.
 Now let's take this first JSON object inside of curly braces{}, and put it inside of an array, using square brackets []. After this first an array of JSON objects, write a second pair of curly brackets {} to create a second JSON object on the array, separating them with commas. Remember that the last key/value pair inside of each JSON object should not followed by a comma.
 
   ```json
-  [
-    {
-      "key": "value",
-      "otherKey": "otherValue",
-      "aNumber": 38.0,
-      "aBoolean": false,
-      "null": null,
-      "lastKey": "lastValue"
-    },
-    {
-      "testing": "value",
-      "other-test": "otherValue"
-    }
-  ]
-  ```
+[
+  {
+    "key": "value",
+    "otherKey": "otherValue",
+    "aNumber": 38.0,
+    "aBoolean": false,
+    "null": null,
+    "lastKey": "lastValue"
+  },
+  {
+    "testing": "value",
+    "other-test": "otherValue"
+  }
+]
+```
 
 ### example4.json
 
