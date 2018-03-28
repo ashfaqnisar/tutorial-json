@@ -6,7 +6,7 @@ tutorial-json is a tutorial about how to write and read JSON files, in order to 
 
 This tutorial was written by [Aarón Montoya-Moraga](http://montoyamoraga.io/). If you want to check out more tutorials, visit [http://montoyamoraga.io/education](http://montoyamoraga.io/education).
 
-It is also available in [Spanish](link). It is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and hosted in [GitHub](https://github.com/).
+It is also available in [Spanish](README-es.md). It is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and hosted in [GitHub](https://github.com/).
 
 ## Introduction
 
