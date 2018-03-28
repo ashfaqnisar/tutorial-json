@@ -36,6 +36,15 @@ It has one key/value between curly braces {}.
 }
 ```
 
+Let's add more key/value pairs, making sure to add commas, and not using one after the last pair.
+
+```json
+{
+  "key": "value",
+  "otherKey": "otherValue",
+  "lastKey": "lastValue"
+}
+```
 
 
 ## Typical mistakes
