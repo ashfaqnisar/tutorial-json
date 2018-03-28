@@ -24,9 +24,19 @@ The syntax of a JSON object can be summarized as follows:
 * Square brackets [] store arrays
 * The file extension is .json
 
+## Writing your own JSON file
+
+This is the simplest JSON file you can write.
+
+It has one key/value between curly braces {}.
+
 ```json
-{ "some": "json" }
+{
+  "key": "value"
+}
 ```
+
+
 
 ## Typical mistakes
 
@@ -54,7 +64,8 @@ This repository contains examples in:
 
 ## References
 
-* [JSON Syntax](https://www.w3schools.com/js/js_json_syntax.asp)
+* [JSON syntax](https://www.w3schools.com/js/js_json_syntax.asp)
+* [JSON validator](https://jsonlint.com/)
 
 ## Thanks
 
