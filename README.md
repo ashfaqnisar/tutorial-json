@@ -45,7 +45,18 @@ Let's add more key/value pairs, making sure to add commas, and not using one aft
   "lastKey": "lastValue"
 }
 ```
+Let's add other types of values
 
+```json
+{
+  "key": "value",
+  "otherKey": "otherValue",
+  "aNumber": 38.0,
+  "aBoolean": false,
+  "null": null,
+  "lastKey": "lastValue"
+}
+```
 
 ## Typical mistakes
 
