@@ -30,11 +30,11 @@ The syntax of a JSON object can be summarized as follows:
 
 ## Typical mistakes
 
-* Using keys that are not strings
+* Using keys that are not strings.
 * Using single quotes instead of double quotes.
 * Unmatched curly braces or square brackets.
-*
-
+* Missing a comma after each key/value pair.
+* Using a comma after the last key/value pair.
 
 ## JSON and JavaScript
 
