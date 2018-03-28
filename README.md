@@ -4,18 +4,43 @@
 
 tutorial-json is a tutorial about how to write and read JSON files, in order to write your own databases and access other databases.
 
-This tutorial is part of an on-going series by [Aarón Montoya-Moraga](http://montoyamoraga.io/). If you want to check out more tutorials, visit [http://montoyamoraga.io/education](http://montoyamoraga.io/education).
+This tutorial was written by [Aarón Montoya-Moraga](http://montoyamoraga.io/). If you want to check out more tutorials, visit [http://montoyamoraga.io/education](http://montoyamoraga.io/education).
 
 It is also available in [Spanish](link). It is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and hosted in [GitHub](https://github.com/).
 
 ## Introduction
 
-JSON is a way of storing information. It associates key/value pairs.
+JSON is a syntax for storing data.
 
-It has a very particular syntax.
+It can be easily parsed by JavaScript, and it is heavily used in databases for this same reason.
+
+The syntax of a JSON object can be summarized as follows:
+
+* Data is organized in key/value pairs.
+* Keys are Strings, written inside double quotes ""
+* Values can be a String, a number, a JSON Object, an array, a boolean, null.
+* Data is separated by commas.
+* Curly braces {} store objects
+* Square brackets [] store arrays
+* The file extension is .json
 
 ```json
 { "some": "json" }
+```
+
+## Typical mistakes
+
+* Using keys that are not strings
+* Using single quotes instead of double quotes.
+* Unmatched curly braces or square brackets.
+*
+
+
+## JSON and JavaScript
+
+```javascript
+//this returns a JavaScript object
+JSON.parse()
 ```
 
 ## Projects that work with JSON files.
@@ -27,7 +52,9 @@ This repository contains examples in:
 * Processing
 * p5.js
 
+## References
 
+* [JSON Syntax](https://www.w3schools.com/js/js_json_syntax.asp)
 
 ## Thanks
 
