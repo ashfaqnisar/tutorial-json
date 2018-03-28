@@ -26,9 +26,9 @@ The syntax of a JSON object can be summarized as follows:
 
 ## Writing your own JSON file
 
-This is the simplest JSON file you can write.
+### example0.json
 
-It has one key/value between curly braces {}.
+This is the simplest JSON object. It has one key/value between curly braces {}.
 
 ```json
 {
@@ -36,7 +36,9 @@ It has one key/value between curly braces {}.
 }
 ```
 
-Let's add more key/value pairs, making sure to add commas, and not using one after the last pair.
+### example1.json
+
+Let's add more key/value pairs to this JSON object, making sure to add commas, and not using one after the last pair.
 
 ```json
 {
@@ -45,7 +47,9 @@ Let's add more key/value pairs, making sure to add commas, and not using one aft
   "lastKey": "lastValue"
 }
 ```
-Let's add other types of values
+### example2.json
+
+Let's add now other types of values to the JSON object.
 
 ```json
 {
@@ -56,6 +60,52 @@ Let's add other types of values
   "null": null,
   "lastKey": "lastValue"
 }
+```
+
+### example3.json
+
+Now let's take this first JSON object inside of curly braces{}, and put it inside of an array, using square brackets []. After this first an array of JSON objects, write a second pair of curly brackets {} to create a second JSON object on the array, separating them with commas. Remember that the last key/value pair inside of each JSON object should not followed by a comma.
+
+  ```json
+  [
+    {
+      "key": "value",
+      "otherKey": "otherValue",
+      "aNumber": 38.0,
+      "aBoolean": false,
+      "null": null,
+      "lastKey": "lastValue"
+    },
+    {
+      "testing": "value",
+      "other-test": "otherValue"
+    }
+  ]
+  ```
+
+### example4.json
+
+Now let's use a JSON object as a value
+
+```json
+[
+  {
+    "key": "value",
+    "otherKey": "otherValue",
+    "aNumber": 38.0,
+    "aBoolean": false,
+    "null": null,
+    "lastKey": "lastValue"
+  },
+  {
+    "testing": "value",
+    "other-test": "otherValue",
+    "jsonObjectAsValue": {
+      "year": 2018,
+      "month": "March"
+    }
+  }
+]
 ```
 
 ## Typical mistakes
@@ -73,14 +123,21 @@ Let's add other types of values
 JSON.parse()
 ```
 
-## Projects that work with JSON files.
+## JSON in projects
 
-## Auxiliary files
+* [transparency](http://montoyamoraga.io/transparency/): a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/). A self-portrait as a database written in JSON format and programmed using p5.js.
+
+## Contents of this repository:
+
+* [json-files]()
+* [examples](Examples in different languages)
 
 This repository contains examples in:
 
 * Processing
 * p5.js
+* Python
+* JavaScript
 
 ## References
 
@@ -89,4 +146,4 @@ This repository contains examples in:
 
 ## Thanks
 
-* Jen Kagan, for inspiring me with her beautiful work [https://whatisit.tech/](https://whatisit.tech/).
+* Jen Kagan, for inspiring me to learn JSON in the first place with her beautiful work [https://whatisit.tech/](https://whatisit.tech/).
