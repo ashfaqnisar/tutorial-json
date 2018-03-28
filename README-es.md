@@ -1,14 +1,14 @@
 # tutorial-json
 
-## About
+## Acerca de
 
-tutorial-json is a tutorial about how to write and read JSON files, in order to write your own databases and access other databases.
+tutorial-json es un tutorial sobre cómo escribir y leer archivos JSON, para así escribir tus propias bases de datos y acceder a otras.
 
-This tutorial was written by [Aarón Montoya-Moraga](http://montoyamoraga.io/). If you want to check out more tutorials, visit [http://montoyamoraga.io/education](http://montoyamoraga.io/education).
+Este tutorial fue escrito por [Aarón Montoya-Moraga](http://montoyamoraga.io/). Para revisar otros tutoriales, visita [http://montoyamoraga.io/education](http://montoyamoraga.io/education).
 
-It is also available in [Spanish](link). It is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and hosted in [GitHub](https://github.com/).
+También está disponible en [inglés](README.md). Fue escrito usando  [Markdown](https://en.wikipedia.org/wiki/Markdown) y está alojado en [GitHub](https://github.com/).
 
-## Introduction
+## Introducción
 
 JSON is a syntax for storing data.
 
