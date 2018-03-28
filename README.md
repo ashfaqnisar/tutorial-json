@@ -1,5 +1,7 @@
 # tutorial-json
 
+[English](README.md) / [Spanish](README-es.md)
+
 ## About
 
 tutorial-json is a tutorial about how to write and read JSON files, in order to write your own databases and access other databases.
