@@ -14,6 +14,8 @@ También está disponible en [inglés](README.md). Fue escrito usando  [Markdown
 
 JSON is a syntax for storing data.
 
+
+
 It can be easily parsed by JavaScript, and it is heavily used in databases for this same reason.
 
 The syntax of a JSON object can be summarized as follows:
